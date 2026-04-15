@@ -1,14 +1,14 @@
-🦠 COVID-19 Data Analysis App
+# 🦠 COVID-19 Data Analysis using Streamlit
 
-## 📌 About Project
-This project is a Data Science web application built using Streamlit.  
-It analyzes COVID-19 data and presents it in an interactive dashboard for better understanding.
+## 📌 Project Overview
+This is a Final Year Project based on Data Science and Machine Learning.  
+The project analyzes COVID-19 data and visualizes it using an interactive Streamlit dashboard.
 
 ## 🚀 Features
-- 📊 Data Visualization (Charts & Graphs)
-- 🌍 Country-wise COVID-19 Analysis
-- 📈 Daily Cases Tracking
-- 🖥️ Simple and User-Friendly Interface
+- 📊 Data Visualization (Graphs & Charts)
+- 🌍 Country-wise COVID Analysis
+- 📈 Daily Case Tracking
+- 🖥️ User-friendly Dashboard
 
 ## 🛠️ Technologies Used
 - Python 🐍
@@ -16,7 +16,7 @@ It analyzes COVID-19 data and presents it in an interactive dashboard for better
 - Pandas 📊
 - Matplotlib 📉
 
-## ▶️ How to Run Locally
+## ▶️ Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
