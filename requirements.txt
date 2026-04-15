@@ -1,0 +1,10 @@
+streamlit>=1.32.0
+requests>=2.31.0
+pandas>=2.0.0
+plotly>=5.18.0
+streamlit-option-menu>=0.3.12
+fpdf2>=2.7.9
+streamlit-mic-recorder>=0.0.8
+beautifulsoup4>=4.12.3
+kaleido>=0.2.1
+lxml>=5.1.0

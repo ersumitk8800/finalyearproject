@@ -1,0 +1,89 @@
+/* Main Background and Font */
+.main {
+    background-color: #f0f2f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Metric Cards Styling */
+[data-testid="stMetricValue"] {
+    font-size: 28px;
+    color: #1f77b4;
+    font-weight: bold;
+}
+
+/* Sidebar Styling */
+.css-1d391kg {
+    background-color: #d6d7e0;
+}
+
+/* Buttons Styling */
+.stButton>button {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #ff1a1a;
+    transform: scale(1.02);
+}
+
+/* Search Bar & Input Styling */
+.stTextInput>div>div>input {
+    border-radius: 10px;
+    border: 2px solid #dfe1e5;
+}
+
+/* Profile Card Styling */
+.profile-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Sidebar background aur design */
+[data-testid="stSidebar"] {
+    background-image: linear-gradient(#2e3440, #1a1c23);
+    color: white;
+    min-width: 250px !important;
+}
+
+/* Navigation buttons (radio options) ka unique design */
+[data-testid="stSidebarNav"] {
+    padding-top: 20px;
+}
+
+/* User Profile Sidebar Card */
+.sidebar-user-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* Hover Property for Navigation Links */
+/* Streamlit ke radio buttons ko target karna */
+div[data-testid="stWidgetLabel"] p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Hover Effect: Jab user kisi option par mouse le jaye */
+div.st-emotion-cache-6qob1r:hover {
+    background-color: rgba(255, 75, 75, 0.2);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    transform: translateX(5px); /* Chhota sa slide effect */
+}
+
+/* Responsive Design: Mobile par adjust hone ke liye */
+@media (max-width: 768px) {
+    [data-testid="stSidebar"] {
+        min-width: 100% !important;
+    }
+}
